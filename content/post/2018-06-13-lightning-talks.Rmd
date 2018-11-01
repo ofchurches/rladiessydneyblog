@@ -1,7 +1,6 @@
 ---
 title: "Launch event: Lightning talks"
 author: "R-Ladies Sydney"
-
 date: 2018-06-13
 tags:
 - meetup
@@ -21,17 +20,13 @@ We are super excited to announce that [R-Ladies Sydney will launch on June 20th 
 
 ## Jessica Lee 
 
-<img src="../../img/lightning-talks/jessica.jpg" width=200px style="float:right; padding:10px">
-
-- *Title*: [**Why I R?**](../../posts/2018-06-13-lightning-talks_staticfiles/JessicaLee.pdf)
+- *Title*: [**Why I R?**](/post/2018-06-13-lightning-talks_files/JessicaLee.pdf)
 - *Contact*: <a href="mailto:jesssica.lee88@gmail.com"><i class="fa fa-envelope"></i></a>
 - *Bio*: I am a postdoctoral fellow working at the School of Psychology at the University of New South Wales. I am investigating how we generalize simple learned associations (e.g., tone-shock) and the role of inductive reasoning processes in such generalization. My background is in associative learning. I use R for data preprocessing, graphing, analysis, and computational modeling. 
 
 <br>
 
 ## Emi Tanaka
-
-<img src="../../img/lightning-talks/emi.jpg" width=200px style="float:right; padding:10px">
 
 - *Title*: [**Making a Shiny interactive web application using R**](https://emitanaka.github.io/talk/rladies-shiny/)
 - *Contact*: <a href="https://twitter.com/statsgen"><i class="fa fa-twitter"></i></a>
@@ -41,9 +36,7 @@ We are super excited to announce that [R-Ladies Sydney will launch on June 20th 
 
 ## Wendy Wong
 
-<img src="../../img/lightning-talks/wendy.jpg" width=200px style="float:right; padding:10px">
-
-- *Title*: [**Transitioning from financial planning to data science - Using R in insurance and agile data science projects in government**](../../posts/2018-06-13-lightning-talks_staticfiles/WendyWong.pdf)
+- *Title*: [**Transitioning from financial planning to data science - Using R in insurance and agile data science projects in government**](/post/2018-06-13-lightning-talks_files/WendyWong.pdf)
 - *Contact*: <a href="mailto:wendy-wong@hotmail.com"><i class="fa fa-envelope"></i></a>
 <a href="https://twitter.com/abc_wendsss"><i class="fa fa-twitter"></i></a>
 <a href="https://www.linkedin.com/in/wendywong7/"><i class="fa fa-linkedin"></i></a>
@@ -52,8 +45,6 @@ We are super excited to announce that [R-Ladies Sydney will launch on June 20th 
 <br>
 
 ## Sarah Romanes 
-
-<img src="../../img/lightning-talks/sarah.jpg" width=200px style="float:right; padding:10px">
 
 - *Title*: [**My long journey learning R - then and now**](https://sarahromanes.github.io/talk/r-ladies-talk/)
 - *Contact*: <a href="sarahromanes.github.io"><i class="fa fa-address-card"></i></a>
@@ -66,8 +57,6 @@ We are super excited to announce that [R-Ladies Sydney will launch on June 20th 
 
 ## Zoe Meers
 
-<img src="../../img/lightning-talks/zoe-meers.jpg" width=200px style="float:right; padding:10px">
-
 - *Title*: [**ggparliament: Parliament plots in the tidyverse**](https://zmeers.github.io/R-LadiesSydney/slides/slides.html)
 - *Contact*: <a href="mailto:zoe.meers@sydney.edu.au"><i class="fa fa-envelope"></i></a>
 <a href="https://twitter.com/zoe_meers"><i class="fa fa-twitter"></i></a>
@@ -77,7 +66,7 @@ We are super excited to announce that [R-Ladies Sydney will launch on June 20th 
 
 ## Lovisa Lannesand
 
-- *Title*: [**From Excel to R in the world of finance**](../../posts/2018-06-13-lightning-talks_staticfiles/LovisaLannesand.html)
+- *Title*: [**From Excel to R in the world of finance**](/post/2018-06-13-lightning-talks_files/LovisaLannesand.html)
 - *Contact*: <a href="mailto:Lovisa.Lannesand@macquarie.com"><i class="fa fa-envelope"></i></a>
 - *Bio*: I am born and raised in Sweden, but at age 18 I was sick of long and cold winters and decided to move to Sydney for 6 months. Seven years has passed and I am still here, however no longer sharing a house with 7 people, and I still love the city!
 I completed my Bachelor of Business at UTS in Sydney in 2013, and it was during this period I gained an interest in statistics and data science.  I now work as a quantitative analyst for Macquarie bank, in the Corporate Asset Finance group. When I first started the role R was completely new to me, but when I realized how efficient and effective the language was I invested the time to learn. Today I use R on a daily basis for a wide range of processes, such as data cleaning / analysis, financial modelling and reporting.
@@ -86,9 +75,7 @@ I completed my Bachelor of Business at UTS in Sydney in 2013, and it was during 
  
 ## Kate Dodds
 
-<img src="../../img/lightning-talks/Kate_Dodds.png" width=200px style="float:right; padding:10px">
-
-- *Title*: [**Learning the lingo - An R newbie’s perspective**](../../posts/2018-06-13-lightning-talks_staticfiles/KateDodds.pdf)
+- *Title*: [**Learning the lingo - An R newbie’s perspective**](/post/2018-06-13-lightning-talks_files/KateDodds.pdf)
 - *Contact*: <a href="mailto:kate.dodds@hdr.mq.edu.au"><i class="fa fa-envelope"></i></a>
 <a href="https://twitter.com/kate_c_dodds"><i class="fa fa-twitter"></i></a>
 <a href="https://www.linkedin.com/in/kate-dodds-/"><i class="fa fa-linkedin"></i></a>
@@ -98,10 +85,7 @@ I completed my Bachelor of Business at UTS in Sydney in 2013, and it was during 
 
 ## Charles Gray
 
-<img src="../../img/lightning-talks/charles.jpg" width=200px style="float:right; padding:10px">
-
-
-- *Title*: [**My experience at runconf18**](../../posts/2018-06-13-lightning-talks_staticfiles/CharlesGray/lightning-talk.html)
+- *Title*: [**My experience at runconf18**](/post/2018-06-13-lightning-talks_files/CharlesGray/lightning-talk.html)
 - *Contact*: <a href="https://twitter.com/cantabile"><i class="fa fa-twitter"></i></a>
 - *Bio*: Charles T. Gray is a tidyverse enthusiast, PhD (meta-analysis) student at La Trobe, and reformed musician. She is a member of R-Ladies Remote and is known for her math advocacy work as a [Mathbassador for Choose Maths](http://choosemaths.org.au/charles-gray/).
 
