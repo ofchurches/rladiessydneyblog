@@ -20,12 +20,10 @@ The idea is for everyone to bring a data set of their own, and to work together 
 
 ## Workshop content
 
-The content for the workshop follows the slides linked below and uses content from the github repository. For the R-Ladies Remote folks there's a zoom link, and for the R-Ladies Sydney the Meetup page:
+The content for the workshop follows the slides linked below and uses content from the github repository.
 
 - Slides: https://slides.com/djnavarro/tidyverse-for-beginners
 - Github: https://github.com/rladiessydney/littlemisstidyverse
-- Zoom:  https://zoom.us/j/211539943
-- Meetup: https://www.meetup.com/rladies-sydney/events/253597187/
 
 ## People!
 
