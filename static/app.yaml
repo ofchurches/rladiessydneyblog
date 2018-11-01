@@ -1,0 +1,52 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+
+handlers:
+- url: /(.*)/
+  static_files: \1/index.html
+  upload: .*/index\.html
+
+- url: /js
+  static_dir: js
+
+- url: /about
+  static_dir: about
+
+- url: /css
+  static_dir: css
+
+- url: /figure
+  static_dir: figure
+
+- url: /posts
+  static_dir: posts
+
+- url: /post
+  static_dir: post
+
+- url: /img
+  static_dir: img
+
+- url: /tags
+  static_dir: tags
+
+- url: /docs
+  static_dir: docs
+
+- url: /littlemisstidyverse
+  static_files: post/2018/08/21/little-miss-tidyverse/index.html
+  upload: post/2018/08/21/little-miss-tidyverse/index.html
+
+- url: /.*
+  script: backend.application
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
+
+builtins:
+  - remote_api: on
