@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meetup on A minimal Hugo website</title>
+    <link>/tags/meetup/</link>
+    <description>Recent content in meetup on A minimal Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Launch event: Lightning talks</title>
+      <link>/post/2018/06/13/lightning-talks/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/06/13/lightning-talks/</guid>
+      <description>We are super excited to announce that R-Ladies Sydney will launch on June 20th 2018 🎉. For our first event, we want everyone to meet someone new and learn something new so we plan to host a series of lightning talks ⚡. You are all invited to come along! We have an awesome lineup of speakers, listed below, so come along and join in!
+
+Jessica LeeTitle: Why I R?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to contribute a post | A minimal Hugo website</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">How to contribute a post</span></h1>
+<h2 class="author">Danielle Navarro</h2>
+<h2 class="date">2018/04/23</h2>
+</div>
+
+<main>
+<!--
+iconline: true
+homepage: "https://example.com"
+twitter: "https://www.twitter.com/XXXXXX"
+github: "https://www.github.com/XXXXXX"
+googlescholar: "https://scholar.google.com/citations?user=XXXXXXX"
+linkedin : "http://example.com"
+email: "me@example.com"
+-->
+<div id="why-contribute-a-post" class="section level1">
+<h1>Why contribute a post?</h1>
+<p>When we started thinking about setting up the Sydney R-Ladies group, we wanted to have some central resource where people contribute posts, tutorials, or anything that they wanted to share with the group. That’s the role we hope this blog can play! Our thinking is that this can serve a few different purposes. Suppose that Jen gives a really awesome workshop at one of the meetups (and she does give great talks!) If there’s a blog post that summarises the workshop content and makes her materials available:</p>
+<ul>
+<li><strong>It helps the people who weren’t there</strong>: People who weren’t able to make it to the meetup can still find the resources, which is nice!</li>
+<li><strong>It helps the people who were there</strong>: If you’re at all like us you might find that you forget key details immediately afterwards, and it is super-helpful if you’re able to find the material later to make sure you’re on top of things :-)</li>
+<li><strong>It helps the presenter</strong>: Lisa, Jen &amp; I are academics, and our experience of teaching has been that when we have to teach something to <em>someone else</em>, it forces us to think about it in a lot more detail than we otherwise might. Just by virtue of having to explain it to others, we usually come away from the experience with a deeper understanding of the topic.</li>
+</ul>
+<p>Plus, sometimes you have a great idea that you just have to share even if you can’t make it to a meetup, so why not blog about it?</p>
+</div>
+<div id="how-to-contribute-a-post" class="section level1">
+<h1>How to contribute a post?</h1>
+<p>Contributing a post is easy, and we’d love to have as many of the Sydney R-Ladies sending in posts. To make it as painless as possible for you do to that, the blog is written in R using the <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> package. This is really convenient, because contributing a post is not much different to the normal process of using R.</p>
+<ol style="list-style-type: decimal">
+<li>Have something you want to say!</li>
+<li>Write a post about it as an R Markdown document</li>
+<li>Email the document to <a href="mailto:sydney@rladies.org">sydney@rladies.org</a></li>
+<li>Wait a bit for us to post it.</li>
+<li>Celebrate!</li>
+</ol>
+<p>If you don’t have any experience using <a href="https://rmarkdown.rstudio.com/">R Markdown</a>, a good way to get started is with the <a href="https://rmarkdown.rstudio.com/lesson-1.html">tutorials</a> on the RStudio web page (the <a href="https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf">cheatsheet</a> is pretty great too!)</p>
+</div>
+<div id="long-posts-or-short-serious-or-whimsical" class="section level1">
+<h1>Long posts or short? Serious or whimsical?</h1>
+<p>Either! Long posts are great if that’s what you want to write, but sometimes you might want to write something short that shares a link or two. Short is totally fine: here is a <a href="http://rladiessydney.org/posts/a-very-short-post/">very short post</a> that I wrote! You can make your posts fun if that’s your preferred style (e.g., I love <a href="https://rforcats.net/">rforcats</a> so much) but you don’t have to do that either. As long as your post adheres to the <a href="https://rladies.org/code-of-conduct/">code of conduct</a> and it’s something you want to share with the R-Ladies of Sydney, go for it!</p>
+</div>
+<div id="some-details-about-blogdown-posts" class="section level1">
+<h1>Some details about blogdown posts…</h1>
+<p>A blog post is a perfectly ordinary R Markdown document. The main difference between the default R Markdown document generated in Rstudio and the blogdown versions used on the R-Ladies Sydney blog is the header information. Using the default template, the header for this post might have looked like this:</p>
+<pre><code>---
+title: &quot;How to contribute a post&quot;
+author: &quot;Danielle Navarro&quot;
+date: &quot;2018-04-23&quot;
+output: html_document
+---</code></pre>
+<p>When blogging, the header needs to contain some extra information that specific to blogging: in particular the <code>tags</code> and the <code>slug</code>. Optionally, you can add your contact information. Here’s the actual header for this post:</p>
+<pre><code>---
+title: &quot;How to contribute a post&quot;
+author: &quot;Danielle Navarro&quot;
+homepage: &quot;https://compcogscisydney.org&quot;
+twitter: &quot;https://www.twitter.com/djnavarro&quot;
+date: &quot;2018-04-23&quot;
+tags:
+  - &quot;beginner&quot;
+  - &quot;R markdown&quot;
+  - &quot;blogging&quot;
+slug: &quot;contribute-a-post&quot;
+---</code></pre>
+<p>As you can see, I’ve added my twitter and homepage, but there are other possibilities that I haven’t manage to document properly - just let me know if there’s something specific you want!</p>
+<p>Some suggestions about how the tags and slugs…</p>
+<ul>
+<li><code>tags</code>: It’s probably a good idea if every post has at least two tags, one indicating what level of R <em>expertise</em> the post assumes (e.g., “beginner”, “intermediate”, “advanced”, “expert”), and one or more tags indicating the <em>topic</em>. Over time that should make it a lot easier for anyone to browse the blog by looking at the <a href="http://rladiessydney.org/tags/">tags page</a></li>
+<li><code>slug</code>: The “slug” for a blog post is the human-readable text in the post URL. So for this post the slug is “contribute-a-post” and so the post URL is <a href="http://rladiessydney.org/posts/contribute-a-post/" class="uri">http://rladiessydney.org/posts/contribute-a-post/</a></li>
+</ul>
+<p>Once you’ve written your R Markdown, save the file as <code>[YYYY]-[MM]-[DD]-[POSTSLUG].Rmd</code> (e.g., the markdown file for this post is named <code>2018-04-23-contribute-a-post.Rmd</code>) and send it to us! All done!</p>
+<p>One thing that we should mention: at our end the blogdown package will knit your post from scratch (i.e., it produces the post from your <code>.Rmd</code> file, not the <code>.html</code> output), so please try to make sure that your post is completely self contained. If you need to use any external data sets or images, make sure you send those in with the post too, otherwise it will be a bit difficult. (I’ll talk about the best way to do that in a later section!)</p>
+</div>
+<div id="visual-style-of-the-blog" class="section level1">
+<h1>Visual style of the blog</h1>
+<p>If you’re familiar with R Markdown but don’t know blogdown, you might be curious about the visual style - this post is written in R Studio as a completely normal R Markdown document, but the output has a very different visual style. If you already know HTML, then you’re probably guessing that there’s some custom CSS involved, and you’d be right. If you don’t know HTML but still want to post, that’s totally fine. Just take a look at the output below to get a feel for how posts look, and don’t worry about it for now!</p>
+<p>For those who care about the details… this blog relies on the <a href="https://github.com/yihui/hugo-xmin">XMin</a> theme by <a href="https://yihui.name">Yihui Xie</a>, ever so slightly tweaked to match the R-Ladies colour scheme! To give you a quick sense of how posts will look on the site, here’s a snippet of R code that draws a histogram of normally distributed observations, using the R-Ladies purple (<a href="http://www.color-hex.com/color/88398a">#88398A</a>):</p>
+<pre class="r"><code>hist(                                             # a histogram of...
+  x = rnorm(100000), breaks = 50,                 # ... normally distributed data,
+  axes = FALSE, xlab = &quot;&quot;, ylab = &quot;&quot;, main = &quot;&quot;,  # ... with no axes or labelling,
+  col = &quot;#88398A&quot;, border = &quot;white&quot;               # ... coloured in purple
+)</code></pre>
+<p><img src="/post/2018-04-23-contribute-a-post_files/figure-html/histogram-1.png" width="576" /></p>
+<p>This is how <em>italics</em> and <strong>boldface</strong> look on the blog. Inline LaTeX equations look like <span class="math inline">\((x+1)^2\)</span>, and a display-style equations look like this: <span class="math display">\[a^n + b^n = c^n\]</span></p>
+<p>Obviously, there’s a lot more styling you can do with R Markdown, but in all honesty those few things are about 80% of what I use on a regular basis.</p>
+</div>
+<div id="can-i-preview-the-visual-style-of-my-post" class="section level1">
+<h1>Can I preview the visual style of my post?</h1>
+<p>Kind of, yes!</p>
+<p>But first… if you don’t want to worry about the details, you absolutely don’t <em>need</em> to play around with your post to make it match the R-Ladies Sydney style. As I mentioned above, the blogdown package uses your original R Markdown file to generate the blog post, and when it does this it will apply the styling all on its own. So you don’t need to do anything if you don’t want to. For most people when you write a post you’ll see it produce output like <a href="../2018-04-23-contribute-a-post_staticfiles/a-very-short-post-raw.html">this</a> which will then look like <a href="https://rladiessydney.org/posts/a-very-short-post/">this</a> when it goes live. In most cases, that’s probably not a big deal?</p>
+<p>That being said, some people probably will want to do this. If you want to do this in a perfectly accurate way, you could install the blogdown package yourself, create your own blog and use the same templates that I’ve been using here (at some point I’ll document the tiny tweaks I made to the original theme)… but that’s a lot of effort, and I could totally understand if no-one wants to do that.</p>
+<p>As a compromise, I’ve posted a repository to our GitHub page that includes an R Markdown template that produces output <em>almost</em> the same as what the blogdown site produces (<a href="https://github.com/rladiessydney/rladies-sydney-blogpost">rladies-sydney-blogpost</a>). To use the template, you need to place the <code>style</code> folder from the repository in the same folder as your R Markdown file, and add the following lines to the header:</p>
+<pre><code>output:  
+  html_document:
+    theme: null
+    self_contained: false
+    template: ../style/rladiessydneyblog.html5  
+    css: 
+      - ../style/style.css  
+      - ../style/fonts.css   </code></pre>
+<p>The output won’t be <em>exactly</em> the same as the post. For example, the syntax highlighting on the blog uses the “github-gist” scheme from <a href="https://highlightjs.org/">highlight.js</a>), which is similar to the default syntax highlighting R Studio uses for R Markdown documents but not <em>quite</em> the same. Hopefully it’s close enough!</p>
+</div>
+<div id="what-if-i-need-to-include-other-files" class="section level1">
+<h1>What if I need to include other files?</h1>
+<p>Oh, the horror of file structures associated with blogging. I swear I thought I understood this back in 2003 when I first tried to write my own blog, but no. No I do not understand. Sigh. I lie. After a bit of reading I <em>think</em> I kind of understand. A bit. Here goes…</p>
+<p>Let’s say I want to include the R ladies logo in this post (and I do). I’ll have to create a folder called <code>2018-04-23-contribute-a-post_staticfiles</code> that contains the logo, and then I can insert the image in my R Markdown document using this:</p>
+<pre><code>![](../2018-04-23-contribute-a-post_staticfiles/logo.png)</code></pre>
+<div class="figure">
+<img src="../2018-04-23-contribute-a-post_staticfiles/logo.png" />
+
+</div>
+<p>Compress the whole thing, directories and all, and then send us the zip file. So your folder structure would look something like this:</p>
+<pre><code>myawesomepost
+├──myrmarkdown
+│      └── DATE-MYPOSTNAME.Rmd
+└──DATE-MYPOSTSLUG-staticfiles
+       ├── image01.png
+       └── image02.png</code></pre>
+<p>where DATE is something like <code>2018-04-23</code> and MYPOSTSLUG is something like <code>contribute-a-post</code>. To help you get started, the (<a href="https://github.com/rladiessydney/rladies-sydney-blogpost">rladies-sydney-blogpost</a>) GitHub repository is already organised in this folder structure. All you need to do is download it, change the file names and start blogging!</p>
+<p>At our end (… and yes, the reason Dani is writing this is <em>absolutely</em> because she has the memory of a goldfish and will have to look at this post to “remind” herself what she’s supposed to do with a contribution!), what we’ll need to do is copy your <code>DATE-MYPOSTSLUG-staticfiles</code> folder into the <code>static/posts</code> folder within, and copy your <code>DATE-MYPOSTNAME.Rmd</code> file to the <code>content</code> folder. That way, whenever the site gets recompiled, your .Rmd file is treated like R Markdown and is processed as such, but your other files get copied directly with no extra work.</p>
+</div>
+<div id="embedding-social-media-content-the-easy-way" class="section level1">
+<h1>Embedding social media content, the easy way!</h1>
+<p>At some point I’m hoping that someone will contribute a post that talks more about how to do cool internet stuff using R, but in the meantime I’ll quickly mention that one of the best features of R Markdown is that whenever you run out of other options, you can just copy and paste raw HTML into the document, and that HTML will be passed straight through into the final document. That’s pretty handy!</p>
+<p>For instance, suppose I want to embed a tweet into this post. There <em>are</em> some very awesome tools to do this within the blogdown package (see <a href="https://bookdown.org/yihui/blogdown/content.html#shortcode">here</a>), but it’s a bit elaborate for my current needs. So here’s how I do it:</p>
+<ol style="list-style-type: decimal">
+<li>Go to the tweet that I want to embed (e.g., <a href="https://twitter.com/JenRichmondPhD/status/988173557250195456">this one</a>)</li>
+<li>Click on the menu on the right side of the tweet, and select “embed tweet”</li>
+<li>There’s a snippet of HTML that appears there, which looks like this:</li>
+</ol>
+<pre><code>&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;OK ladies in Sydney who use &lt;a href=&quot;https://twitter.com/hashtag/Rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Rstats&lt;/a&gt; (or would like to), &lt;a href=&quot;https://twitter.com/djnavarro?ref_src=twsrc%5Etfw&quot;&gt;@djnavarro&lt;/a&gt; &lt;a href=&quot;https://twitter.com/williamslisaphd?ref_src=twsrc%5Etfw&quot;&gt;@williamslisaphd&lt;/a&gt; and I want to organise an &lt;a href=&quot;https://twitter.com/hashtag/Rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Rladies&lt;/a&gt; chapter in Sydney. But we need help! There is a chapter in &lt;a href=&quot;https://twitter.com/RLadiesMelb?ref_src=twsrc%5Etfw&quot;&gt;@RLadiesMelb&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/RLadiesAdelaide?ref_src=twsrc%5Etfw&quot;&gt;@RLadiesAdelaide&lt;/a&gt; but not in Sydney- lets fix that! &lt;a href=&quot;https://twitter.com/RLadiesGlobal?ref_src=twsrc%5Etfw&quot;&gt;@RLadiesGlobal&lt;/a&gt; &lt;a href=&quot;https://t.co/SNW0o9Lo2T&quot;&gt;pic.twitter.com/SNW0o9Lo2T&lt;/a&gt;&lt;/p&gt;&amp;mdash; Dr Jenny Richmond (@JenRichmondPhD) &lt;a href=&quot;https://twitter.com/JenRichmondPhD/status/988173557250195456?ref_src=twsrc%5Etfw&quot;&gt;April 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>Copy the snippet into the R Markdown file. It’s pure HTML so it doesn’t need to go inside a code block or anything.</li>
+<li>Click the “knit” button and bask in the awesomeness of your embedded tweet!</li>
+</ol>
+<blockquote class="twitter-tweet" data-lang="en">
+<p lang="en" dir="ltr">
+OK ladies in Sydney who use <a href="https://twitter.com/hashtag/Rstats?src=hash&amp;ref_src=twsrc%5Etfw">#Rstats</a> (or would like to), <a href="https://twitter.com/djnavarro?ref_src=twsrc%5Etfw"><span class="citation">@djnavarro</span></a> <a href="https://twitter.com/williamslisaphd?ref_src=twsrc%5Etfw"><span class="citation">@williamslisaphd</span></a> and I want to organise an <a href="https://twitter.com/hashtag/Rladies?src=hash&amp;ref_src=twsrc%5Etfw">#Rladies</a> chapter in Sydney. But we need help! There is a chapter in <a href="https://twitter.com/RLadiesMelb?ref_src=twsrc%5Etfw"><span class="citation">@RLadiesMelb</span></a> and <a href="https://twitter.com/RLadiesAdelaide?ref_src=twsrc%5Etfw"><span class="citation">@RLadiesAdelaide</span></a> but not in Sydney- lets fix that! <a href="https://twitter.com/RLadiesGlobal?ref_src=twsrc%5Etfw"><span class="citation">@RLadiesGlobal</span></a> <a href="https://t.co/SNW0o9Lo2T">pic.twitter.com/SNW0o9Lo2T</a>
+</p>
+— Dr Jenny Richmond (<span class="citation">@JenRichmondPhD</span>) <a href="https://twitter.com/JenRichmondPhD/status/988173557250195456?ref_src=twsrc%5Etfw">April 22, 2018</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<div id="what-if-i-want-to-share-my-code" class="section level1">
+<h1>What if I want to share my code?</h1>
+<p>Oh awesome! Yes, pleeeeeeease share code. We <em>love</em> sharing code. If you have your own GitHub page or similar, just link to the repository from the post. Easy! Alternatively if you would like to, you can share it via the <a href="https://github.com/rladiessydney">R-Ladies Sydney GitHub</a> page, which we totally have! It’s an organisation page on GitHub, so we can add any other R-Ladies who want to join!</p>
+<p>Don’t know how to use GitHub? No problem! Here’s a <a href="https://guides.github.com/activities/hello-world/">quick tutorial</a> on the GitHub webpage, but alternatively you can reach out to us or one of the Sydney R-Ladies. I suspect we’ll talk about git repositories at meetups too. Getting started is easier than it looks :-)</p>
+</div>
+<div id="thats-it" class="section level1">
+<h1>That’s it!</h1>
+<p>If anyone has any questions about contributing a post, please get in touch with the organisers. It’s not meant to be a very formal process - just send an email and we’ll set you up. Happy blogging, and we hope to see you all at the meetups!</p>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; <a href="https://yihui.name">Yihui Xie</a> 2017 &ndash; 2018 | <a href="https://github.com/yihui">Github</a> | <a href="https://twitter.com/xieyihui">Twitter</a>
+  
+  </footer>
+  </body>
+</html>
+

@@ -6,69 +6,67 @@
     <description>Recent content in Home on A minimal Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Another Note on A blogdown Tutorial</title>
-      <link>/note/2017/06/14/another-note/</link>
-      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      <title>RUWithMe</title>
+      <link>/post/2018/11/01/ruwithme/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/note/2017/06/14/another-note/</guid>
-      <description>I just discovered an awesome tutorial on blogdown written by Alison. I have to admit this is the best blogdown tutorial I have seen so far.</description>
+      <guid>/post/2018/11/01/ruwithme/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>A Quick Note on Two Beautiful Websites</title>
-      <link>/note/2017/06/13/a-quick-note/</link>
-      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
+      <title>Tidyverse for Beginners</title>
+      <link>/post/2018/08/21/little-miss-tidyverse/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/note/2017/06/13/a-quick-note/</guid>
-      <description>To me, the two most impressive websites based on blogdown are:
- Rob J Hyndman&amp;rsquo;s personal website. Live Free or Dichotomize by Lucy and Nick et al.  I&amp;rsquo;m sure there will be more.</description>
+      <guid>/post/2018/08/21/little-miss-tidyverse/</guid>
+      <description>Workshop planAre you new to this R business and short on time? Would you like to start working with data in R without having to go through the arduous process of learning all the programming details first? Do you have a neat data set you’d like to explore and visualise? This might be the workshop for you! Or are you an experienced old school R programmer who learned how to do everything in base R?</description>
     </item>
     
     <item>
-      <title>A Plain Markdown Post</title>
-      <link>/post/2016/02/14/a-plain-markdown-post/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      <title>Launch event: Lightning talks</title>
+      <link>/post/2018/06/13/lightning-talks/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/2016/02/14/a-plain-markdown-post/</guid>
-      <description>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.
-1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.</description>
+      <guid>/post/2018/06/13/lightning-talks/</guid>
+      <description>We are super excited to announce that R-Ladies Sydney will launch on June 20th 2018 🎉. For our first event, we want everyone to meet someone new and learn something new so we plan to host a series of lightning talks ⚡. You are all invited to come along! We have an awesome lineup of speakers, listed below, so come along and join in!
+
+Jessica LeeTitle: Why I R?</description>
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>How to contribute a post</title>
+      <link>/post/2018/04/23/contribute-a-post/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015/07/23/hello-r-markdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/post/2018/04/23/contribute-a-post/</guid>
+      <description>Why contribute a post?When we started thinking about setting up the Sydney R-Ladies group, we wanted to have some central resource where people contribute posts, tutorials, or anything that they wanted to share with the group. That’s the role we hope this blog can play! Our thinking is that this can serve a few different purposes. Suppose that Jen gives a really awesome workshop at one of the meetups (and she does give great talks!</description>
     </item>
     
     <item>
-      <title>Lorem Ipsum</title>
-      <link>/post/2015/07/23/lorem-ipsum/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2015/07/23/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Quisque mattis volutpat lorem vitae feugiat.</description>
-    </item>
-    
-    <item>
-      <title>About Hugo XMin</title>
+      <title>R-Ladies Sydney</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>XMin is the first Hugo theme I have designed. The original reason that I wrote it was I needed a minimal example of Hugo themes when I was writing the blogdown book. Basically I wanted a simple theme that supports a navigation menu, a home page, other single pages, lists of pages, blog posts, categories, tags, and RSS. That is all. Nothing fancy. In terms of CSS and JavaScript, I really want to keep them minimal.</description>
+      <description>About the Sydney R-Ladies group R-Ladies Sydney is part of a world-wide organization to promote gender diversity in the R community, with Australian chapters in Melbourne, Adelaide and Brisbane.
+The plot to set up a Sydney chapter was hatched by Jenny Richmond , with Danielle Navarro , Lisa Williams  and Steph de Silva  as co-conspirators, and (for the moment at least!) the four of us make up the very friendly leadership group for the chapter.</description>
+    </item>
+    
+    <item>
+      <title>R-Ladies Sydney events</title>
+      <link>/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/events/</guid>
+      <description>Check out some of the events we’ve hosted! You can find and sign up to new events on our Meetup page.
+Machine Learning 101, Part 2, (17-Oct-2018)Presenter: Sarah Romanes (@sarah_romanes)Slides: https://sarahromanes.github.io/r-ladies-ML-2/#1Github: https://github.com/sarahromanes/r-ladies-ML-2Machine Learning 101, Part 1 (10-Oct-2018)Presenter: Sarah Romanes (@sarah_romanes)Slides: https://sarahromanes.github.io/r-ladies-ML-1/#1Github: https://github.com/sarahromanes/r-ladies-ML-1Shiny September: Making an interactive web app in R (19-Sep-2018)Presenter: Emi Tanaka (@statsgen)Slides: https://emitanaka.</description>
     </item>
     
   </channel>
