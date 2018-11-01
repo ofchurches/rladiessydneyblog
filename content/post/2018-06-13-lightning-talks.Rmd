@@ -1,5 +1,5 @@
 ---
-title: "Launch event: Lightning talks"
+title: "Launch Event: Lightning Talks"
 author: "R-Ladies Sydney"
 date: 2018-06-13
 tags:
