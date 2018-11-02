@@ -33,9 +33,11 @@ Our rather ambitious aim is to roll these out by the end of the year - with Basi
 
 You’ll be able to access all of the units and lessons within them here on the R-Ladies Sydney website. The series builds skills cumulatively - so we encourage you to ‘start from the start’. For later units, we’ll provide a brief summary of where you should be up to before diving in.
 
-We **strongly** encourage all of you local to Sydney to join us over on our [Slack space](https://goo.gl/forms/MDqlAQfLRhhhCWbG3). Follow along here on the site even if you don’t join Slack (or aren’t from Sydney). There, you can join me and a cohort of fellow learners - and our generous teachers! We'll support one another, and build a network while we're at it! Even if you're joining us later down the track, the Slack space will be an invaluable resource for troubleshooting!
+We **strongly encourage** all of you local to Sydney to join us over on our [Slack space](https://goo.gl/forms/MDqlAQfLRhhhCWbG3). There, you can join me and a cohort of fellow learners - and our generous teachers! We’ll support one another, and build a local network while we’re at it! Even if you’re joining us later down the track, the Slack space will be an invaluable resource for troubleshooting! As you’ll see below, learning together is evidently where it’s at when it comes to learning R.
 
-As you’ll see below, learning together is evidently where it’s at when it comes to learning R.
+If you’re not from Sydney, or opt not to join Slack, you can of course follow along the lessons here on the site.
+
+
 
 #RYouWithMe: Co-founder to co-founder(s) AMA
 
@@ -101,13 +103,15 @@ __Jen:__ Apply what you are learning to your own data. It is all very well to fo
 
 So, RYouWithMe? I certainly hope so! Basic Basics will launch 4 November!
 
-I’ll be learning alongside you - and hope to see you on [Slack](https://goo.gl/forms/MDqlAQfLRhhhCWbG3)!
+I’ll be learning alongside you - and hope to see you Sydney-siders on [Slack](https://goo.gl/forms/MDqlAQfLRhhhCWbG3)!
 
 I’d like to take this chance to also thank those of you who’ve volunteered as teachers for RYouWithMe! We’ll be in touch soon with ways you can help out!
 
 If you haven’t yet already, join us on [MeetUp](https://www.meetup.com/en-AU/rladies-sydney/) to hear about future events and follow us on [Twitter](https://twitter.com/RLadiesSydney)!
 
-Thoughts? Ideas for units? Want to get involved as a teacher? Email us at [rladiessydney@gmail.com](mailto:rladiessydney@gmail.com)! We’d love to hear from you and hope to see you Sydney-siders on Slack!
+Thoughts? Ideas for units? Want to get involved as a teacher? Email us at [rladiessydney@gmail.com](mailto:rladiessydney@gmail.com)! We’d love to hear from you!
+
+
 
 ###A coda
 
