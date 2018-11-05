@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Basic Basics Lesson 3: Loading Data | R-Ladies Sydney</title>
+    <title>Basic Basics 3: Loading Data | R-Ladies Sydney</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:creator" content="@djnavarro">
 <meta property="og:title" content=R-Ladies&#32;Sydney>
-<meta property="og:description" content=Basic&#32;Basics&#32;Lesson&#32;3:&#32;Loading&#32;Data>
+<meta property="og:description" content=Basic&#32;Basics&#32;3:&#32;Loading&#32;Data>
 <meta property="og:image" content="https://rladiessydney.org/img/R-LadiesGlobal.png">
 
 
@@ -51,30 +51,28 @@
     </nav>
 
 <div class="article-meta">
-<h1><span class="title">Basic Basics Lesson 3: Loading Data</span></h1>
+<h1><span class="title">Basic Basics 3: Loading Data</span></h1>
 <h2 class="author">R-Ladies Sydney</h2>
 <h2 class="date">2018/11/05</h2>
 </div>
 
 <main>
-<div id="basic-basics-lesson-3-loading-data" class="section level1">
-<h1>Basic Basics Lesson 3: Loading Data</h1>
-<p>In this lesson, we’re going to review how to get data into RStudio, using a specially selected data file that we’ll continue to use for many of the RYouWithMe lessons.</p>
+<p>In this, the third lesson to <a href="/post/2018/11/05/basicbasics/">Basic Basics</a>, we’re going to review how to get data into RStudio, using a specially selected data file that we’ll continue to use for many of the RYouWithMe lessons.</p>
 <div id="lesson-outcomes" class="section level2">
 <h2>Lesson Outcomes</h2>
 <p>By the end of the lesson, you should:</p>
-<div style="white-space: pre-line;">    3.1 Have the sydneybeaches.csv data file saved to your RYouWithMe data folder
-    3.2 Know how to use the <code>here</code> package to tell R where your data is, how to use read_csv to read data from a .csv file, and how to use summary functions to explore your data
+<div style="white-space: pre-line;">    3.1 Have the <code>sydneybeaches.csv</code> data file saved to your RYouWithMe data folder
+    3.2 Know how to use the <code>here</code> package to tell R where your data is, how to use <code>read_csv</code> to read data from a .csv file, and how to use summary functions to explore your data
     3.3 Have an idea of where to go to learn more about reading different kinds of data into R</div>
 </div>
 <div id="git-the-data-get-it" class="section level2">
 <h2>3.1 Git the data! (get it?!)</h2>
-<p>For this lesson, you will need to visit the R-Ladies Sydney <a href="https://github.com/rladiessydney/RYouWithMe">Git page</a>. Download the sydneybeaches.csv data file using right click or control+click and selecting “Save link as”.</p>
+<p>For this lesson, you will need to visit the R-Ladies Sydney <a href="https://github.com/rladiessydney/RYouWithMe">GitHub page</a>. Download the <code>sydneybeaches.csv</code> data file using right click or control+click and selecting “Save link as”.</p>
 <div class="figure">
 <img src="/post/2018-11-05-basicbasics-3_files/savedata.jpg" />
 
 </div>
-<p>Save the file to the data folder within your RYouWithMe folder.</p>
+<p>Save the file to the <code>data</code> folder within your <code>RYouWithMe</code> folder.</p>
 <div id="an-interlude-the-sydney-beaches-dataset" class="section level3">
 <h3>An interlude: The Sydney Beaches Dataset</h3>
 <p>We’ll be using this dataset for many of the remaining RYouWithMe lessons. Not only is it locally relevant for R-Ladies Sydney, it’s also fascinating! This dataset is compiled by the NSW Office of Environment and Heritage contains the enterococci counts in water samples obtained from – you guessed it – Sydney beaches as part of the <a href="https://www.environment.nsw.gov.au/topics/water/beaches/beachwatch-water-quality-program">Beachwatch Water Quality Program</a>! The dataset we’ll be working with is current as of October 13th 2018.</p>
@@ -96,12 +94,11 @@
 <h2>3.2 Read and explore the Sydney beaches data</h2>
 <p>In this screencast, we’ll review:</p>
 <ul>
-<li>How to read in the beaches into R using read_csv and the <code>here</code> package</li>
-<li>How to get a feel for the data using View, dim, str, head, tail, and summary</li>
+<li>How to read in the beaches into R using <code>read_csv</code> and the <code>here</code> package</li>
+<li>How to get a feel for the data using <code>View</code>, <code>dim</code>, <code>str</code>, <code>head</code>, <code>tail</code>, and <code>summary</code></li>
 <li>How to get simple summary stats using the <code>skimr</code> package</li>
 </ul>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2MVolYETR5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
+<p><br> <iframe width="560" height="315" src="https://www.youtube.com/embed/2MVolYETR5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <p>Watch the video and then carry out the following steps:</p>
 <ol style="list-style-type: decimal">
 <li>Load the <code>tidyverse</code> and <code>here</code> packages at the top of your script [you should have these there from Lesson 2!]</li>
@@ -122,16 +119,15 @@
 </div>
 <div id="beyond-local-csv-files" class="section level2">
 <h2>3.3 Beyond local CSV files</h2>
-<p>But what if my data isn’t in .csv format??</p>
-<p>No problem, there is a package for that! R can read in data from almost anywhere and any format. Learn more about reading data from…</p>
+<p>But what if my data isn’t in .csv format?? No problem, there is a package for that! R can read in data from almost anywhere and any format. For example, you can learn more about reading data from…</p>
 <ol style="list-style-type: decimal">
-<li><p><strong>Excel files</strong> install.packages(“readxl”) <a href="https://readxl.tidyverse.org/">link</a></p></li>
-<li><p><strong>SPSS/Stata/SAS files</strong> install.packages(“haven”) <a href="https://haven.tidyverse.org/">link1</a> <a href="http://www.statscanbefun.com/rblog/2015/8/26/reading-spss-data-into-r">link2</a></p></li>
-<li><p><strong>Google sheets</strong> install.packages(“googlesheets”) <a href="https://cran.r-project.org/web/packages/googlesheets/vignettes/basic-usage.html">link</a></p></li>
-<li><p><strong>Copy and paste using datapasta</strong> install.packages(“datapasta”) <a href="https://github.com/MilesMcBain/datapasta/blob/master/README.md">link</a></p></li>
+<li><strong>Excel files</strong>: <code>install.packages(&quot;readxl&quot;)</code> <a href="https://readxl.tidyverse.org/">link</a></li>
+<li><strong>SPSS/Stata/SAS files</strong>: <code>install.packages(&quot;haven&quot;)</code> <a href="https://haven.tidyverse.org/">link1</a> <a href="http://www.statscanbefun.com/rblog/2015/8/26/reading-spss-data-into-r">link2</a></li>
+<li><strong>Google sheets</strong>: <code>install.packages(&quot;googlesheets&quot;)</code> <a href="https://cran.r-project.org/web/packages/googlesheets/vignettes/basic-usage.html">link</a></li>
+<li><strong>Copy and paste using datapasta</strong>: <code>install.packages(&quot;datapasta&quot;)</code> <a href="https://github.com/MilesMcBain/datapasta/blob/master/README.md">link</a></li>
 </ol>
-<p>That’s it for Basic Basics (at least for now!). We hope you go and explore RStudio more while you wait for Unit 2 to drop!</p>
-</div>
+<p>… but R has tools for working with a very wide range of possible data formats and so there are packages out there for all sorts of things. But we’ll leave those for a later date.</p>
+<p>That’s it for <a href="/post/2018/11/05/basicbasics/">Basic Basics</a> (at least for now!). We hope you go and explore RStudio more while you wait for the next <a href="/ryouwithme">RYouWithMe</a> unit to drop!</p>
 </div>
 
 </main>

@@ -1,5 +1,5 @@
 ---
-title: "Basic Basics Lesson 2: Packages"
+title: "Basic Basics 2: Installing and Loading Packages"
 author: "R-Ladies Sydney"
 date: '2018-11-05'
 slug: 'basicbasics-2'
@@ -9,9 +9,7 @@ tags: []
 
 
 
-<div id="basic-basics-lesson-2-installing-and-loading-packages" class="section level1">
-<h1>Basic Basics Lesson 2: Installing and Loading Packages</h1>
-<p>You likely won’t get very far in R without packages. Sure, you could write all the functions you need for your analysis yourself if you wanted, but the great thing about the #rstats community is that people write code, bundle it into packages, and then give them away FOR FREE. Once you are an #rstats expert, you can create your own packages and give back, but for now lets learn what packages are and how to use them.</p>
+<p>For the second lesson in <a href="/post/2018/11/05/basicbasics/">Basic Basics</a> we’re going to talk about <em>packages</em>. You likely won’t get very far in R without packages. Sure, you could write all the functions you need for your analysis yourself if you wanted, but the great thing about the <a href="https://twitter.com/hashtag/rstats?src=hash">#rstats</a> community is that people write code, bundle it into packages, and then give them away FOR FREE because they are so terribly nice. Once you are an #rstats expert, you can create your own packages and give back, but for now let’s learn what packages are and how to use them.</p>
 <div id="lesson-outcomes" class="section level2">
 <h2>Lesson Outcomes</h2>
 <p>By the end of the lesson, you should:</p>
@@ -22,8 +20,8 @@ tags: []
 </div>
 <div id="what-is-a-package" class="section level2">
 <h2>2.1 What is a package?</h2>
-<p>A package is a bundle of code that a generous person has written, tested, and then given away. Most often packages are designed to pull together functions that are related to a particular data science problem (i.e. data wrangling, visualisation, inference). Packages that have been officially tested and endorsed by R live on CRAN (The Comprehensive R Archive Network). You can find a list of all the packages on CRAN <a href="https://cran.r-project.org/">here</a>.</p>
-<p>Some packages are bundles of packages. For example, the <a href="https://www.tidyverse.org/packages/">Tidyverse</a> is an umbrella package that pulls together lots of individual data wrangling and visualisation packages, so that when you install <code>tidyverse</code> you get 8 packages for price of 1 (actually they are free, but you get what I mean). The packages in the tidyverse include:</p>
+<p>A package is a bundle of code that a generous person has written, tested, and then given away. Most of the time packages are designed to solve a specific problem, so they to pull together functions related to a particular data science problem (e.g., data wrangling, visualisation, inference). Anyone can write a package, and you can get packages from lots of different places, but for beginners the best thing to do is get packages from CRAN, the <em>Comprehensive R Archive Network</em>. It’s easier than any of the alternatives, and people tend to wait until their package is stable before submitting it to CRAN, so you’re less likely to run into problems. You can find a list of all the packages on CRAN <a href="https://cran.r-project.org/">here</a>.</p>
+<p>Some packages are bundles of packages. For example, the <a href="https://www.tidyverse.org/packages/">tidyverse</a> is an umbrella package that pulls together lots of individual data wrangling and visualisation packages, so that when you install <code>tidyverse</code> you get 8 packages for price of 1 (actually they are free, but you get what I mean). The packages in the tidyverse include:</p>
 <ul>
 <li>ggplot2</li>
 <li>dplyr</li>
@@ -42,14 +40,13 @@ tags: []
 <li>How to install packages</li>
 <li>How to use the <code>library</code> function to load packages when you want to use them</li>
 </ul>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v6VygIgvoZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
+<p><br> <iframe width="560" height="315" src="https://www.youtube.com/embed/v6VygIgvoZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <p>Watch the video and then carry out the following steps:</p>
 <ol style="list-style-type: decimal">
 <li>Install the <code>tidyverse</code> and <code>here</code> packages</li>
-<li>Add a section label to your script and library() calls to the top of your script to load the <code>tidyverse</code> and <code>here</code> packages. You’ll be using these packages to read in data in Basic Basics Lesson 3!<br />
+<li>Add a section label to your script and <code>library()</code> calls to the top of your script to load the <code>tidyverse</code> and <code>here</code> packages. You’ll be using these packages to read in data in Basic Basics Lesson 3!<br />
 </li>
-<li>Browse the list of packages on CRAN, find one that looks interesting and install it (just because now you know how!). <strong>Hint</strong> - we will probably use the <code>janitor</code> and <code>skimr</code> packages soon, so have a go at installing those.</li>
+<li>Browse the list of packages on CRAN, find one that looks interesting and install it (just because now you know how!) <strong>Hint</strong> - we will probably use the <code>janitor</code> and <code>skimr</code> packages soon, so have a go at installing those.</li>
 </ol>
 </div>
 <div id="ive-installed-a-package-now-what" class="section level2">
@@ -85,6 +82,5 @@ tags: []
 </div>
 <p>Now that you have the <code>tidyverse</code> and <code>here</code> (and a few other potentially useful packages) installed, let’s read in some data.</p>
 <p>On to <a href="/post/2018/11/05/basicbasics-3/">Lesson 3!</a></p>
-</div>
 </div>
 </div>

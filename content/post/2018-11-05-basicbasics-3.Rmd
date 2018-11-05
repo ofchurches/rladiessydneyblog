@@ -1,5 +1,5 @@
 ---
-title: "Basic Basics Lesson 3: Loading Data"
+title: "Basic Basics 3: Loading Data"
 author: "R-Ladies Sydney"
 date: '2018-11-05'
 slug: 'basicbasics-3'
@@ -7,25 +7,23 @@ categories: []
 tags: []
 ---
 
-#Basic Basics Lesson 3: Loading Data
-
-In this lesson, we're going to review how to get data into RStudio, using a specially selected data file that we'll continue to use for many of the RYouWithMe lessons.
+In this, the third lesson to [Basic Basics](/post/2018/11/05/basicbasics/), we're going to review how to get data into RStudio, using a specially selected data file that we'll continue to use for many of the RYouWithMe lessons.
 
 ##Lesson Outcomes
 By the end of the lesson, you should:
 
-|     3.1 Have the sydneybeaches.csv data file saved to your RYouWithMe data folder
-|     3.2 Know how to use the `here` package to tell R where your data is, how to use read_csv to read data from a .csv file, and how to use summary functions to explore your data
+|     3.1 Have the `sydneybeaches.csv` data file saved to your RYouWithMe data folder
+|     3.2 Know how to use the `here` package to tell R where your data is, how to use `read_csv` to read data from a .csv file, and how to use summary functions to explore your data
 |     3.3 Have an idea of where to go to learn more about reading different kinds of data into R 
 
 ##3.1 Git the data! (get it?!)
 
-For this lesson, you will need to visit the R-Ladies Sydney [Git page](https://github.com/rladiessydney/RYouWithMe). Download the sydneybeaches.csv data file using right click or control+click and selecting "Save link as". 
+For this lesson, you will need to visit the R-Ladies Sydney [GitHub page](https://github.com/rladiessydney/RYouWithMe). Download the `sydneybeaches.csv` data file using right click or control+click and selecting "Save link as". 
 
 ![](/post/2018-11-05-basicbasics-3_files/savedata.jpg)
 
 
-Save the file to the data folder within your RYouWithMe folder. 
+Save the file to the `data` folder within your `RYouWithMe` folder. 
 
 ###An interlude: The Sydney Beaches Dataset
 
@@ -56,10 +54,11 @@ Ok - back to the lesson...
 
 In this screencast, we'll review:
 
-  * How to read in the beaches into R using read_csv and the `here` package 
-  * How to get a feel for the data using View, dim, str, head, tail, and summary
+  * How to read in the beaches into R using `read_csv` and the `here` package 
+  * How to get a feel for the data using `View`, `dim`, `str`, `head`, `tail`, and `summary`
   * How to get simple summary stats using the `skimr` package
 
+<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2MVolYETR5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Watch the video and then carry out the following steps:
@@ -91,16 +90,13 @@ kidEMG <- read_csv(here("data", "myowndata", "JustkidCleanEMG.csv")
 
 ##3.3 Beyond local CSV files
 
-But what if my data isn't in .csv format?? 
+But what if my data isn't in .csv format?? No problem, there is a package for that! R can read in data from almost anywhere and any format. For example, you can learn more about reading data from...
 
-No problem, there is a package for that! R can read in data from almost anywhere and any format. Learn more about reading data from...
+1. **Excel files**: `install.packages("readxl")` [link](https://readxl.tidyverse.org/)
+2. **SPSS/Stata/SAS files**: `install.packages("haven")` [link1](https://haven.tidyverse.org/) [link2](http://www.statscanbefun.com/rblog/2015/8/26/reading-spss-data-into-r)
+3. **Google sheets**: `install.packages("googlesheets")` [link](https://cran.r-project.org/web/packages/googlesheets/vignettes/basic-usage.html)
+4. **Copy and paste using datapasta**: `install.packages("datapasta")` [link](https://github.com/MilesMcBain/datapasta/blob/master/README.md)
 
-1. **Excel files** install.packages(“readxl”) [link](https://readxl.tidyverse.org/)
+... but R has tools for working with a very wide range of possible data formats and so there are packages out there for all sorts of things. But we'll leave those for a later date.
 
-2. **SPSS/Stata/SAS files** install.packages(“haven”) [link1](https://haven.tidyverse.org/) [link2](http://www.statscanbefun.com/rblog/2015/8/26/reading-spss-data-into-r)
-
-3. **Google sheets** install.packages(“googlesheets”) [link](https://cran.r-project.org/web/packages/googlesheets/vignettes/basic-usage.html)
-
-4. **Copy and paste using datapasta** install.packages(“datapasta”) [link](https://github.com/MilesMcBain/datapasta/blob/master/README.md)
-
-That's it for Basic Basics (at least for now!). We hope you go and explore RStudio more while you wait for Unit 2 to drop!
+That's it for [Basic Basics](/post/2018/11/05/basicbasics/) (at least for now!). We hope you go and explore RStudio more while you wait for the next [RYouWithMe](/ryouwithme) unit to drop!

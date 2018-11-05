@@ -1,5 +1,5 @@
 ---
-title: "Basic Basics Lesson 2: Packages"
+title: "Basic Basics 2: Installing and Loading Packages"
 author: "R-Ladies Sydney"
 date: '2018-11-05'
 slug: 'basicbasics-2'
@@ -7,11 +7,10 @@ categories: []
 tags: []
 ---
 
-#Basic Basics Lesson 2: Installing and Loading Packages
-
-You likely won't get very far in R without packages. Sure, you could write all the functions you need for your analysis yourself if you wanted, but the great thing about the #rstats community is that people write code, bundle it into packages, and then give them away FOR FREE. Once you are an #rstats expert, you can create your own packages and give back, but for now lets learn what packages are and how to use them. 
+For the second lesson in [Basic Basics](/post/2018/11/05/basicbasics/) we're going to talk about *packages*. You likely won't get very far in R without packages. Sure, you could write all the functions you need for your analysis yourself if you wanted, but the great thing about the [#rstats](https://twitter.com/hashtag/rstats?src=hash) community is that people write code, bundle it into packages, and then give them away FOR FREE because they are so terribly nice. Once you are an #rstats expert, you can create your own packages and give back, but for now let's learn what packages are and how to use them. 
 
 ##Lesson Outcomes
+
 By the end of the lesson, you should:
 
 |     2.1 Understand what a package is
@@ -21,9 +20,9 @@ By the end of the lesson, you should:
 
 ##2.1 What is a package?
 
-A package is a bundle of code that a generous person has written, tested, and then given away. Most often packages are designed to pull together functions that are related to a particular data science problem (i.e. data wrangling, visualisation, inference).  Packages that have been officially tested and endorsed by R live on CRAN (The Comprehensive R Archive Network). You can find a list of all the packages on CRAN [here](https://cran.r-project.org/). 
+A package is a bundle of code that a generous person has written, tested, and then given away. Most of the time packages are designed to solve a specific problem, so they to pull together functions related to a particular data science problem (e.g., data wrangling, visualisation, inference). Anyone can write a package, and you can get packages from lots of different places, but for beginners the best thing to do is get packages from CRAN, the *Comprehensive R Archive Network*. It's easier than any of the alternatives, and people tend to wait until their package is stable before submitting it to CRAN, so you're less likely to run into problems. You can find a list of all the packages on CRAN [here](https://cran.r-project.org/). 
 
-Some packages are bundles of packages. For example, the [Tidyverse](https://www.tidyverse.org/packages/) is an umbrella package that pulls together lots of individual data wrangling and visualisation packages, so that when you install `tidyverse` you get 8 packages for price of 1 (actually they are free, but you get what I mean). The packages in the tidyverse include: 
+Some packages are bundles of packages. For example, the [tidyverse](https://www.tidyverse.org/packages/) is an umbrella package that pulls together lots of individual data wrangling and visualisation packages, so that when you install `tidyverse` you get 8 packages for price of 1 (actually they are free, but you get what I mean). The packages in the tidyverse include: 
 
   * ggplot2
   * dplyr
@@ -41,13 +40,14 @@ In this screencast, we'll cover:
   * How to install packages
   * How to use the `library` function to load packages when you want to use them 
 
+<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v6VygIgvoZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Watch the video and then carry out the following steps:
 
 1. Install the `tidyverse` and `here` packages
-2. Add a section label to your script and library() calls to the top of your script to load the `tidyverse` and `here` packages. You'll be using these packages to read in data in Basic Basics Lesson 3!  
-3. Browse the list of packages on CRAN, find one that looks interesting and install it (just because now you know how!). **Hint** - we will probably use the `janitor` and `skimr` packages soon, so have a go at installing those. 
+2. Add a section label to your script and `library()` calls to the top of your script to load the `tidyverse` and `here` packages. You'll be using these packages to read in data in Basic Basics Lesson 3!  
+3. Browse the list of packages on CRAN, find one that looks interesting and install it (just because now you know how!) **Hint** - we will probably use the `janitor` and `skimr` packages soon, so have a go at installing those. 
 
 ##2.3 I've installed a package... now what? 
 

@@ -12,32 +12,32 @@
     
     
     <item>
-      <title>Basic Basics Lesson 1: RStudio</title>
+      <title>Basic Basics 1: An Opinionated Tour of RStudio</title>
       <link>/post/2018/11/05/basicbasics-1/</link>
       <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018/11/05/basicbasics-1/</guid>
-      <description>Basic Basics Lesson 1: An Opinionated Tour of RStudioHere at R-Ladies Sydney, we’re a pretty opinionated bunch. In this lesson, we’re going to impart our opinions1 on navigating RStudio and setting up your workflow. This forms the foundation of all future RYouWithMe lessons - so be sure to follow along carefully!
+      <description>Welcome to the first lesson of Basic Basics! Here at R-Ladies Sydney, we’re a pretty opinionated bunch. In this lesson, we’re going to impart our opinions1 on navigating RStudio and setting up your workflow. This forms the foundation of all future RYouWithMe lessons - so be sure to follow along carefully!
 Lesson OutcomesBy the end of the lesson, you should:
 1.1. Have R and RStudio installed on your machine1.</description>
     </item>
     
     <item>
-      <title>Basic Basics Lesson 2: Packages</title>
+      <title>Basic Basics 2: Installing and Loading Packages</title>
       <link>/post/2018/11/05/basicbasics-2/</link>
       <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018/11/05/basicbasics-2/</guid>
-      <description>Basic Basics Lesson 2: Installing and Loading PackagesYou likely won’t get very far in R without packages. Sure, you could write all the functions you need for your analysis yourself if you wanted, but the great thing about the #rstats community is that people write code, bundle it into packages, and then give them away FOR FREE. Once you are an #rstats expert, you can create your own packages and give back, but for now lets learn what packages are and how to use them.</description>
+      <description>For the second lesson in Basic Basics we’re going to talk about packages. You likely won’t get very far in R without packages. Sure, you could write all the functions you need for your analysis yourself if you wanted, but the great thing about the #rstats community is that people write code, bundle it into packages, and then give them away FOR FREE because they are so terribly nice. Once you are an #rstats expert, you can create your own packages and give back, but for now let’s learn what packages are and how to use them.</description>
     </item>
     
     <item>
-      <title>Basic Basics Lesson 3: Loading Data</title>
+      <title>Basic Basics 3: Loading Data</title>
       <link>/post/2018/11/05/basicbasics-3/</link>
       <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018/11/05/basicbasics-3/</guid>
-      <description>Basic Basics Lesson 3: Loading DataIn this lesson, we’re going to review how to get data into RStudio, using a specially selected data file that we’ll continue to use for many of the RYouWithMe lessons.
+      <description>In this, the third lesson to Basic Basics, we’re going to review how to get data into RStudio, using a specially selected data file that we’ll continue to use for many of the RYouWithMe lessons.
 Lesson OutcomesBy the end of the lesson, you should:
 3.1 Have the sydneybeaches.csv data file saved to your RYouWithMe data folder3.2 Know how to use the here package to tell R where your data is, how to use read_csv to read data from a .</description>
     </item>
@@ -48,10 +48,9 @@ Lesson OutcomesBy the end of the lesson, you should:
       <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018/11/05/basicbasics/</guid>
-      <description>RYouWithMe Unit 1 - Basic BasicsIn Unit 1, you’ll lay down the foundational knowledge and skills that will carry you through your R journey!
-Unit 1 has three lessons:
-An opinionated tour of RStudioInstalling and Loading PackagesGetting data into RStudioAs you embark on Basic Basics, we think this is a useful reminder for R users new and experienced (h/t realpython):
-Learning R is a journey - we’re delighted to have you along!</description>
+      <description>Welcome to the first unit of RYouWithMe! In this first unit, you’ll lay down the foundational knowledge and skills that will carry you through your R journey! Since it covers the basics of R in hopefully-straightforward way, we’re calling it Basic Basics…
+This unit has three lessons:
+An opinionated tour of RStudioInstalling and loading packagesGetting data into RStudioClick on any of the links above to see the lessons.</description>
     </item>
     
     <item>
