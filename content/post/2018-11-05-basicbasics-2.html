@@ -1,0 +1,89 @@
+---
+title: "Basic Basics Lesson 2: Packages"
+author: "R-Ladies Sydney"
+date: '2018-11-05'
+slug: 'basicbasics-2'
+categories: []
+tags: []
+---
+
+
+
+<div id="basic-basics-lesson-2-installing-and-loading-packages" class="section level1">
+<h1>Basic Basics Lesson 2: Installing and Loading Packages</h1>
+<p>You likely won’t get very far in R without packages. Sure, you could write all the functions you need for your analysis yourself if you wanted, but the great thing about the #rstats community is that people write code, bundle it into packages, and then give them away FOR FREE. Once you are an #rstats expert, you can create your own packages and give back, but for now lets learn what packages are and how to use them.</p>
+<div id="lesson-outcomes" class="section level2">
+<h2>Lesson Outcomes</h2>
+<p>By the end of the lesson, you should:</p>
+<div style="white-space: pre-line;">    2.1 Understand what a package is
+    2.2 Understand how to install packages from the console (quadrant 2).
+    2.3 Be able to use the <code>library</code> function to load packages at the top of your script (and understand why it is best to do it there and not in the console!)
+    2.4 Know how to find useful information about how to use a particular package when you are trying something new.</div>
+</div>
+<div id="what-is-a-package" class="section level2">
+<h2>2.1 What is a package?</h2>
+<p>A package is a bundle of code that a generous person has written, tested, and then given away. Most often packages are designed to pull together functions that are related to a particular data science problem (i.e. data wrangling, visualisation, inference). Packages that have been officially tested and endorsed by R live on CRAN (The Comprehensive R Archive Network). You can find a list of all the packages on CRAN <a href="https://cran.r-project.org/">here</a>.</p>
+<p>Some packages are bundles of packages. For example, the <a href="https://www.tidyverse.org/packages/">Tidyverse</a> is an umbrella package that pulls together lots of individual data wrangling and visualisation packages, so that when you install <code>tidyverse</code> you get 8 packages for price of 1 (actually they are free, but you get what I mean). The packages in the tidyverse include:</p>
+<ul>
+<li>ggplot2</li>
+<li>dplyr</li>
+<li>tidyr</li>
+<li>readr</li>
+<li>purrr</li>
+<li>tibble</li>
+<li>stringr</li>
+<li>forcats</li>
+</ul>
+</div>
+<div id="how-do-i-install-and-load-packages" class="section level2">
+<h2>2.2 How do I install and load packages?</h2>
+<p>In this screencast, we’ll cover:</p>
+<ul>
+<li>How to install packages</li>
+<li>How to use the <code>library</code> function to load packages when you want to use them</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v6VygIgvoZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p>Watch the video and then carry out the following steps:</p>
+<ol style="list-style-type: decimal">
+<li>Install the <code>tidyverse</code> and <code>here</code> packages</li>
+<li>Add a section label to your script and library() calls to the top of your script to load the <code>tidyverse</code> and <code>here</code> packages. You’ll be using these packages to read in data in Basic Basics Lesson 3!<br />
+</li>
+<li>Browse the list of packages on CRAN, find one that looks interesting and install it (just because now you know how!). <strong>Hint</strong> - we will probably use the <code>janitor</code> and <code>skimr</code> packages soon, so have a go at installing those.</li>
+</ol>
+</div>
+<div id="ive-installed-a-package-now-what" class="section level2">
+<h2>2.3 I’ve installed a package… now what?</h2>
+<p>Installing and loading packages is all well and good - but knowing what they do is pretty important when you want to use them! CRAN requires that package authors write documentation that goes with their package and these documents are designed to give you an idea of what functions are included and what the package can be used for.</p>
+<p>When you are looking for information about a package there are a few places to look. Lets use the <code>janitor</code> package as an example…</p>
+<div id="look-on-cran" class="section level5">
+<h5>1. look on CRAN</h5>
+<div class="figure">
+<img src="/post/2018-11-05-basicbasics-2_files/CRAN_janitor.png" />
+
+</div>
+<p>The README file is most often pretty useful. <a href="https://cran.r-project.org/web/packages/janitor/readme/README.html">janitor README</a></p>
+</div>
+<div id="see-if-the-author-wrote-a-package-vignette" class="section level5">
+<h5>2. see if the author wrote a package vignette</h5>
+<p>A vignette is a long form guide to using the package. For the <code>janitor</code> package, there is a link to the vignette in the README file. <a href="http://sfirke.github.io/janitor/articles/janitor.html">janitor vignette</a></p>
+</div>
+<div id="google-it" class="section level5">
+<h5>3. Google it</h5>
+<p>You can see when we google “how to use the janitor package R” the first things that come up are CRAN documentation but under that there are links to documentation and blog posts by other R users who have found the package helpful and written about it.</p>
+<div class="figure">
+<img src="/post/2018-11-05-basicbasics-2_files/google_janitor.png" />
+
+</div>
+</div>
+<div id="have-a-look-on-twitter" class="section level5">
+<h5>4. Have a look on Twitter</h5>
+<p>Searching twitter is also a great way of locating people who might have written a blog post about how to use a package. Search [#rstats janitor] to find people who have liked the package enough to bother tweeting about it.</p>
+<div class="figure">
+<img src="/post/2018-11-05-basicbasics-2_files/twitter_janitor.png" />
+
+</div>
+<p>Now that you have the <code>tidyverse</code> and <code>here</code> (and a few other potentially useful packages) installed, let’s read in some data. On to Lesson 3! [DANI ADD LINK]</p>
+</div>
+</div>
+</div>
