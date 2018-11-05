@@ -59,7 +59,7 @@ In this screencast, we'll review:
   * How to get simple summary stats using the `skimr` package
 
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2MVolYETR5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2MVolYETR5Q?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Watch the video and then carry out the following steps:
 
