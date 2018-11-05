@@ -10,7 +10,7 @@ tags: []
 
 #Basic Basics Lesson 1: An Opinionated Tour of RStudio
 
-Here at R-Ladies Sydney, we're a pretty opinionated bunch. In this lesson, we're going to impart our opinions^1^ on navigating RStudio and setting up your workflow. This forms the foundation of all future RYouWithMe lessons - so be sure to follow along carefully!
+Here at R-Ladies Sydney, we're a pretty opinionated bunch. In this lesson, we're going to impart our opinions^[Because these are opinions, you can probably find people who disagree. To each her own and all that!] on navigating RStudio and setting up your workflow. This forms the foundation of all future RYouWithMe lessons - so be sure to follow along carefully!
 
 ##Lesson Outcomes
 By the end of the lesson, you should:
@@ -66,8 +66,7 @@ Locate Preferences (on Mac, this is in the RStudio menu). In the General tab, un
 
 ![](/post/2018-11-05-basicbasics-1_files/settings.jpg)
 
-Tada! Now onto Lesson 2: Installing and Loading Packages! [DANI - ADD LINK]
+Tada! 
 
-***
+Now onto [Lesson 2: Installing and Loading Packages!](/post/2018/11/05/basicbasics-2/)
 
-^1^ Because these are opinions, you can probably find people who disagree. To each her own and all that!

@@ -23,7 +23,7 @@ The result: __RYouWithMe__ - a series of online learning resources for using R -
 ![](/post/2018-11-01-ryouwithme_files/RYouWithMe.jpg)
 
 We have five ‘units’ planned:  
-1. Basic Basics  
+1. [Basic Basics](/post/2018/11/05/basicbasics/)  
 2. Clean it up (aka Data Wrangling)  
 3. VizWiz (aka Visualisation Wizardry)  
 4. Behind the Curtain (aka The Language of R)  
