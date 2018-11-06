@@ -17,6 +17,9 @@ handlers:
 - url: /css
   static_dir: css
 
+- url: /data
+  static_dir: data
+
 - url: /figure
   static_dir: figure
 
