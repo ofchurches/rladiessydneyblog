@@ -24,7 +24,7 @@ The result: __RYouWithMe__ - a series of online learning resources for using R -
 
 We have five ‘units’ planned:  
 1. [Basic Basics](/post/2018/11/05/basicbasics/)  
-2. Clean it up (aka Data Wrangling)  
+2. [Clean it up](/post/2018/11/19/clean-it-up/) (aka Data Wrangling)  
 3. VizWiz (aka Visualisation Wizardry)  
 4. Behind the Curtain (aka The Language of R)  
 5. MarkyMark (aka RMarkdown reports)  
