@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clean It Up 1: Cleaning Up Columns | R-Ladies Sydney</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115940772-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115940772-2');
+</script>
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@djnavarro">
+<meta property="og:title" content=R-Ladies&#32;Sydney>
+<meta property="og:description" content=Clean&#32;It&#32;Up&#32;1:&#32;Cleaning&#32;Up&#32;Columns>
+<meta property="og:image" content="https://rladiessydney.org/img/R-LadiesGlobal.png">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+
+<link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/github-gist.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/events/">Events</a></li>
+      
+      <li><a href="/post/">Posts</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Clean It Up 1: Cleaning Up Columns</span></h1>
+<h2 class="author">R-Ladies Sydney</h2>
+<h2 class="date">2018/11/20</h2>
+</div>
+
+<main>
+<p>Which beach is dirtiest? Which council does the best job of preventing beach contamination? Have beaches been getting cleaner in the past 5 years? We can answer all of your questions about the Sydney Beaches dataset, but first we need to do some tidying up.</p>
+<p>In this lesson, we’re going to try out the <code>janitor</code> package and use functions from <code>dplyr</code>, a package in the <code>tidyverse</code> that is designed for data wrangling to rename and select columns. We will also introduce the idea of the pipe %&gt;%, which allows you to string commands together.</p>
+<div id="lesson-outcomes" class="section level2">
+<h2>Lesson Outcomes</h2>
+<p>By the end of the lesson, you should:</p>
+<div style="white-space: pre-line;">    1.1. Understand how to clean up column names automatically using <code>clean_names()</code> or manually using <code>rename()</code>
+    1.2 Know how to create subsets of data using <code>select()</code>
+    1.3. Be able to “pipe” <code>%&gt;%</code> data through a series of <code>dplyr</code> functions</div>
+</div>
+<div id="clean-up-your-column-names" class="section level2">
+<h2>1.1 Clean up your column names</h2>
+<p>When you enter data in Excel, you most often don’t think too much about what you call each column. After all, you just label them once and as long as they are meaningful to you, what does it matter if the column name is a long combination of CAPITALLETTERS, lowercaseletters, and numbers?</p>
+<p>When you are working with variables in R though, you need to type the name of each variable, every time you want to work with it. So, it makes sense to make your column names as simple, but meaningful as possible! Ideally, they should also be consistently formatted.</p>
+<div id="an-aside" class="section level4">
+<h4>An aside</h4>
+<blockquote>
+<p>Jenny Bryan has really <a href="https://speakerdeck.com/jennybc/how-to-name-files?slide=27">good advice about naming things</a>. She recommends that you using a labelling system (for files, but the same principles apply for variable names) that makes everything readable by both the computer and by a human (right-now you, but also future you, and anyone else who might interact with your data!).</p>
+</blockquote>
+<p>Is there anything problematic about the column names in the sydneybeaches dataset?</p>
+<p>The variable names are mostly ok, except for the one that contains the bacteria level values. “Enterococci (cfu/100ml)”&quot; sticks out as something I don’t want to type more than once. How ’bout you?</p>
+<p>In this screencast, we’ll review:</p>
+<ul>
+<li>How to reformat your column names to be consistent</li>
+<li>How to change the name of variables that are unwieldy</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y9a6zFBGWUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p>Watch the video and then carry out the following steps:</p>
+<ol style="list-style-type: decimal">
+<li>Make sure you have the <code>janitor</code> and <code>tidyverse</code> packages installed and loaded<br />
+</li>
+<li>Clean up your column names using whichever method appeals to you most<br />
+</li>
+<li>Change the name of the bacteria column to something that is meaningful to you, though we recommend ‘beachbugs’ if you want to stay consistent with the lesson!</li>
+</ol>
+</div>
+</div>
+<div id="selecting-just-a-subset-of-variables-to-look-at" class="section level2">
+<h2>1.2 Selecting just a subset of variables to look at</h2>
+<p>The beaches dataset is not big; there are a lot of observations but we are only looking at 8 variables. Often you will be dealing with many more variables than this and sometimes you want to simplify your life by only looking at a subset of those variables. The <code>select</code> function from the <code>dyplr</code> package is useful for just this situation.</p>
+<p>In this screencast, we’ll review:</p>
+<ul>
+<li>How to select just a few variables for closer inspection</li>
+<li>How to change the order that your variables appear</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ht_fwLpciZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p>Watch the video and then create a new dataframe that contains only the site, council, and beachbugs columns.</p>
+</div>
+<div id="make-your-life-easier-with-the-pipe" class="section level1">
+<h1>1.3 Make your life easier with the pipe %&gt;%</h1>
+<p>There are lots of old school R users who find the pipe the most confusing aspect of the tidyverse. For beginners, though, the pipe can be really intuitive! So, consider this one of the few benefits of learning R now!</p>
+<p>What is the pipe? The pipe is an operator from the <code>magrittr</code> package that allows you to take a dataset and “pipe” it through a series of functions in a step by step way. It looks like this: <code>%&gt;%</code></p>
+<div class="figure">
+<img src="/post/2018-11-19-cleanitup_files/clean1-pipe.png" />
+
+</div>
+<p>The pipe allows you string operations together in a way that is really powerful and accomplishes <strong>a lot</strong> with relatively few lines of code.</p>
+<p>In this screencast, we’ll review:</p>
+<ul>
+<li>How to pipe a handful of cleaning, renaming, selecting commands together</li>
+<li>How to write your clean data to a new .csv file</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UXqJM0Ht8Go" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p>Watch the video and then carry out the following steps:</p>
+<ol style="list-style-type: decimal">
+<li>Pipe together a series of commands that creates a new dataframe called cleanbeaches containing the output after you have
+<ul>
+<li>Cleaned the names<br />
+</li>
+<li>Renamed the bacteria column<br />
+</li>
+<li>Selected interesting columns<br />
+</li>
+</ul></li>
+<li>Write your cleanbeach data to a new .csv called “cleanbeaches.csv”</li>
+</ol>
+</div>
+<div id="now-have-a-go-with-your-own-data" class="section level1">
+<h1>Now have a go with <strong>your own data!</strong></h1>
+<p>First, read your data in! (Need a refresher? Check out Basic Basics Lesson 3 <a href="/post/2018/11/05/basicbasics-3/">here</a>).</p>
+<p>Take a close look at your variable names.</p>
+<p><strong>Are there any that are untenable?</strong><br />
+- Use <code>rename</code> to whip them into shape</p>
+<p><strong>Have you used similar formatting across your variables?</strong><br />
+- Use <code>clean_names</code> or <code>toupper</code> or <code>tolower</code> (depending on your preference)</p>
+<p><strong>How many variables do you have? Does it make sense to select just a few of the most interesting ones to look at?</strong> - Use <code>select</code> to create a new dataframe of just the important stuff.</p>
+<p><strong>Pipe it all together</strong> - Can you use the pipe to string together a series of operations, starting with <code>read_csv</code> and finishing with <code>write_csv</code>, with a series of piped cleaning operations in the middle??</p>
+<p>Cleaned up columns? Check! Next up - <a href="/post/2018/11/20/clean-it-up-2/">exploring what’s in those rows</a>!</p>
+</div>
+
+</main>
+
+  <footer>
+  <script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script async src="/js/center-img.js"></script>
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+
+<script>
+hljs.configure({languages: []});
+hljs.initHighlightingOnLoad();
+</script>
+
+  
+  <hr/>
+  &copy; <a href="https://rladiessydney.org">R-Ladies Sydney</a> 2018 | <a href="http://meetup.com/rladies-sydney" title="Meetup" style="text-decoration:none"><i class="fa fa-meetup"></i></a>&nbsp;<a href="https://twitter.com/RLadiesSydney" title="Twitter" style="text-decoration:none"><i class="fa fa-twitter"></i></a>&nbsp;<a href="https://github.com/rladiessydney" title="GitHub" style="text-decoration:none"><i class="fa fa-github"></i></a></span>
+  
+  </footer>
+  </body>
+</html>
+

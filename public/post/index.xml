@@ -6,10 +6,51 @@
     <description>Recent content in Posts on R-Ladies Sydney</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Clean It Up 1: Cleaning Up Columns</title>
+      <link>/post/2018/11/20/clean-it-up-1/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/11/20/clean-it-up-1/</guid>
+      <description>Which beach is dirtiest? Which council does the best job of preventing beach contamination? Have beaches been getting cleaner in the past 5 years? We can answer all of your questions about the Sydney Beaches dataset, but first we need to do some tidying up.
+In this lesson, we’re going to try out the janitor package and use functions from dplyr, a package in the tidyverse that is designed for data wrangling to rename and select columns.</description>
+    </item>
+    
+    <item>
+      <title>Clean It Up 2: Exploring Rows</title>
+      <link>/post/2018/11/20/clean-it-up-2/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/11/20/clean-it-up-2/</guid>
+      <description>Now that we have cleaned up our column names to make them easier to work with, we can start to answer some questions about what’s in those rows! In this lesson, we’re going to filter, arrange, group_by and summarise the beaches data to answer the following questions:
+Question A: Which beach has the highest recorded bacteria levels?Question B: Does Coogee or Bondi have more extreme bacteria levels? Which beach has the worst bacteria levels on average?</description>
+    </item>
+    
+    <item>
+      <title>Clean It Up 3: Making New Variables</title>
+      <link>/post/2018/11/20/clean-it-up-3/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/11/20/clean-it-up-3/</guid>
+      <description>What if the data you are really interested in isn’t in your dataframe yet? Perhaps you want to break data contained in one variable across many variables, or to combine data from several columns into one. Maybe you want to transform your data or compute difference scores.
+In this lesson, we will continue to explore the sydneybeaches data, learning how to make new variables in using separate, unite, mutate and other functions from dpylr.</description>
+    </item>
+    
+    <item>
+      <title>Clean It Up Overview</title>
+      <link>/post/2018/11/19/clean-it-up-overview/</link>
+      <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/11/19/clean-it-up-overview/</guid>
+      <description>RYouWithMe Unit 2 - Clean It UpWelcome to the second unit of RYouWithMe! In Unit 2, we’re moving on to data cleaning! Trust us, it’s more fun than housecleaning!
+Unit 2 has four lessons:
+Cleaning Up ColumnsExploring the RowsMaking New VariablesWide to Long to Wide to… [forthcoming]via GIPHY</description>
+    </item>
     
     <item>
       <title>Basic Basics 1: An Opinionated Tour of RStudio</title>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clean It Up 2: Exploring Rows | R-Ladies Sydney</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115940772-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115940772-2');
+</script>
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@djnavarro">
+<meta property="og:title" content=R-Ladies&#32;Sydney>
+<meta property="og:description" content=Clean&#32;It&#32;Up&#32;2:&#32;Exploring&#32;Rows>
+<meta property="og:image" content="https://rladiessydney.org/img/R-LadiesGlobal.png">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+
+<link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/github-gist.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/events/">Events</a></li>
+      
+      <li><a href="/post/">Posts</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Clean It Up 2: Exploring Rows</span></h1>
+<h2 class="author">R-Ladies Sydney</h2>
+<h2 class="date">2018/11/20</h2>
+</div>
+
+<main>
+<p>Now that we have cleaned up our column names to make them easier to work with, we can start to answer some questions about what’s in those rows! In this lesson, we’re going to <code>filter</code>, <code>arrange</code>, <code>group_by</code> and <code>summarise</code> the beaches data to answer the following questions:</p>
+<ul>
+<li><strong>Question A:</strong> Which beach has the highest recorded bacteria levels?</li>
+<li><strong>Question B:</strong> Does Coogee or Bondi have more extreme bacteria levels? Which beach has the worst bacteria levels on average?</li>
+<li><strong>Question C:</strong> Which council does the worst job at keeping their beaches clean?</li>
+</ul>
+<div id="lesson-outcomes" class="section level2">
+<h2>Lesson Outcomes</h2>
+<p>By the end of the lesson, you should:</p>
+<div style="white-space: pre-line;">    2.1 Know how to use <code>arrange</code> to sort a dataframe and <code>filter</code> to select parts of the dataframe
+    2.2 Know how to use <code>group_by</code> and <code>summarise</code> to get summary statistics
+    2.2 Be able to pipe these functions together to answer questions about your data</div>
+</div>
+<div id="question-a-which-beach-has-the-highest-recorded-bacteria-levels" class="section level2">
+<h2>Question A: Which beach has the highest recorded bacteria levels?</h2>
+<p>When we first looked at a <code>summary</code> of the sydneybeaches data, we could see that the highest value of beach bacteria in the dataset was 4900. I wonder which beach that came from? Here, we use <code>arrange</code> to sort the beach bugs data in descending order. We can also use the pipe to combine <code>filter</code> and <code>arrange</code> to look at extreme values within a particular site.</p>
+<div class="figure">
+<img src="/post/2018-11-19-cleanitup_files/clean2-summary.png" />
+
+</div>
+<p>In this screencast, we’ll review:</p>
+<ul>
+<li>How to use the <code>arrange</code> function to sort your data</li>
+<li>How to use <code>filter</code> to look at just a subset of your data</li>
+<li>How to use the pipe to combine <code>filter</code> and <code>arrange</code> functions</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nJIB643YETo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p>Watch the video and then carry out the following steps:</p>
+<ol style="list-style-type: decimal">
+<li>Sort the sydney beaches data by beachbugs in descending order</li>
+<li>Pick your favourite beach and determine whether its most extreme beachbug values are higher or lower than the worst day at Coogee.</li>
+</ol>
+</div>
+<div id="question-b-does-coogee-or-bondi-have-more-extreme-bacteria-levels-which-beach-has-the-worst-bacteria-levels-on-average" class="section level2">
+<h2>Question B: Does Coogee or Bondi have more extreme bacteria levels? Which beach has the worst bacteria levels on average?</h2>
+<p>“Where should I swim?”&quot; you might ask… Well, to answer that question we need to compare bacteria levels across sites.</p>
+<p>To do this, ou can put more than one argument into a filter function. For example, you can filter for either Coogee or Bondi.</p>
+<p>In this screencast, we’ll review:</p>
+<ul>
+<li>How to use <code>filter</code> by more than one site</li>
+<li>How to create grouped summary stats using <code>group_by</code> and <code>summarise</code></li>
+<li>How to use the pipe to combine <code>filter</code>, <code>group_by</code>, and <code>summarise</code> functions</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m0735DnMry8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p>Watch the video and then carry out the following steps:</p>
+<ol style="list-style-type: decimal">
+<li>Pick two beaches to compare, use filter and the %in% operator</li>
+<li>Use group_by and summarise to work out which beach has the worst bacteria levels on average.</li>
+</ol>
+</div>
+<div id="question-c-which-council-does-the-worst-job-at-keeping-their-beaches-clean" class="section level2">
+<h2>Question C: Which council does the worst job at keeping their beaches clean?</h2>
+<p>Lets practice our new <code>dplyr</code> skills, using <code>group_by</code> council (instead of site) and <code>summarise</code> to see which council does the best job at keeping its beaches clean.</p>
+<p>In this screencast, we’ll review:</p>
+<ul>
+<li>How to <code>group_by</code> more multiple variables to gain more insight into the summary statistics from <code>summarise</code></li>
+<li>How to assign the output of your <code>summarise</code> to a new object in your environment</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w6lyT6YyycE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+<div id="now-have-a-go-with-your-own-data" class="section level2">
+<h2>Now have a go with <strong>your own data!</strong></h2>
+<ul>
+<li>Choose a continuous variable and sort your data in descending order. Are the extreme values surprising?</li>
+<li>Pick a categorical variable, filter for one level of that variable and then sort in descending order</li>
+<li>Use group_by and summarise to create summary statistics that answer a question you have about your data</li>
+</ul>
+<p><strong>Sydney-based R-Ladies</strong> - share your successes and any challenges you’ve faced in the #ryouwithme_2_cleaning Slack channel!</p>
+<p>Next up - Clean It Up <a href="/post/2018/11/20/clean-it-up-3/">Lesson 3: Making New Variables</a></p>
+<div id="p.s.-interested-in-more-dplyr-tutorials" class="section level3">
+<h3>P.S. Interested in more <code>dplyr</code> tutorials</h3>
+<p>Check out this blog series by R-Lady Suzan Baert!</p>
+<ul>
+<li><a href="https://suzan.rbind.io/2018/01/dplyr-tutorial-1/">Selecting</a></li>
+<li><a href="https://suzan.rbind.io/2018/02/dplyr-tutorial-3/#filtering-based-on-a-exact-character-variable-matches">Filtering</a></li>
+<li><a href="https://suzan.rbind.io/2018/04/dplyr-tutorial-4/">Summarising</a></li>
+</ul>
+</div>
+</div>
+
+</main>
+
+  <footer>
+  <script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script async src="/js/center-img.js"></script>
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+
+<script>
+hljs.configure({languages: []});
+hljs.initHighlightingOnLoad();
+</script>
+
+  
+  <hr/>
+  &copy; <a href="https://rladiessydney.org">R-Ladies Sydney</a> 2018 | <a href="http://meetup.com/rladies-sydney" title="Meetup" style="text-decoration:none"><i class="fa fa-meetup"></i></a>&nbsp;<a href="https://twitter.com/RLadiesSydney" title="Twitter" style="text-decoration:none"><i class="fa fa-twitter"></i></a>&nbsp;<a href="https://github.com/rladiessydney" title="GitHub" style="text-decoration:none"><i class="fa fa-github"></i></a></span>
+  
+  </footer>
+  </body>
+</html>
+
