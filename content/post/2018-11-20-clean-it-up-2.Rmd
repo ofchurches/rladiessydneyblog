@@ -82,7 +82,7 @@ In this screencast, we’ll review:
 
 Next up - Clean It Up [Lesson 3: Making New Variables](/post/2018/11/20/clean-it-up-3/)
 
-###P.S. Interested in more `dplyr` tutorials
+### P.S. Interested in more `dplyr` tutorials?
 Check out this blog series by R-Lady Suzan Baert! 
 
 - [Selecting](https://suzan.rbind.io/2018/01/dplyr-tutorial-1/)

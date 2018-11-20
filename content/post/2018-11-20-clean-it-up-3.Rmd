@@ -65,10 +65,20 @@ In this screencast, we’ll review:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fmcxq1owMp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Watch the video and then create a new dataframe called cleanbeaches_new by piping together the following steps…  
+
+1. Separate the date column into day, month, year
+2. Create a new column that contains the log transformed beach bugs data
+3. Create a new column that contains the difference scores
+4. Create a new column that contains a logical vector re whether each beachbug reading is higher than average
+5. Group_by site
+6. Create a new column that contains a logical vector re whether each beachbug reading is higher than average, for each site
+
 ##Now have a go with **your own data!**
 
 - Choose a variable in character format and separate it into several columns 
 - Pick two character vectors, and combine them using the unite function 
 - Use mutate to transform your data, compute a numeric variable, and compute a new logical variable. 
+
 
 **Sydney-based R-Ladies** - share your successes and any challenges you've faced in the #ryouwithme_2_cleaning Slack channel! 
