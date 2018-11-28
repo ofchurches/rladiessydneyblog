@@ -1,6 +1,6 @@
 ---
 title: 'Clean It Up 4: Wide to Long to Wide to...'
-author: R-Ladies Sydney
+author: 'R-Ladies Sydney'
 date: '2018-11-28'
 slug: clean-it-up-4
 categories: []
@@ -48,6 +48,11 @@ In this lesson, we will use three different examples to illustrate how to use `g
 1. Great British Bakeoff data from [Alison Hill](https://twitter.com/apreshill)
 2. Some summary data from our own sydneybeaches dataset
 3. A wickedly complex example from a cognition experiment out of [Dani Navarro's](https://twitter.com/djnavarro) lab
+
+Each example is a little different, but in each case we can use `gather` and `spread` to do switch between different formats. We'll walk you through the process step by step, but the basic idea is shown graphically in this lovely animation made by [Garrick Aden-Buie](https://twitter.com/grrrck)
+
+
+![](/post/2018-11-19-cleanitup_files/tidyr-spread-gather.gif)
 
 
 
@@ -194,3 +199,14 @@ Is your data in wide format? No problem. Sort out answers to the following quest
 3. Which columns do you want to gather? 
 
 **Sydney-based R-Ladies** - share your successes and any challenges you've faced in the #ryouwithme_2_cleaning Slack channel! 
+
+
+
+### Looking for more?
+
+Some additional links that might be helpful!
+
+- https://github.com/gadenbuie/tidyexplain#tidy-data
+- http://garrettgman.github.io/tidying/
+- https://blog.rstudio.com/2014/07/22/introducing-tidyr/
+- https://robchavez.github.io/datascience_gallery/html_only/data_wrangling.html
