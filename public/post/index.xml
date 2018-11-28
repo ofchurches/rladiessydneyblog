@@ -6,10 +6,20 @@
     <description>Recent content in Posts on R-Ladies Sydney</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Clean It Up 4: Wide to Long to Wide to...</title>
+      <link>/post/2018/11/28/clean-it-up-4/</link>
+      <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/11/28/clean-it-up-4/</guid>
+      <description>Learning how to use gather and spread functions might be one of the biggest stumbling blocks that R learners encounter. Even Rlady ed experts like Jesse Mostipak freely admit to not really “getting it”.
+there&#39;s a pretty large discrepancy between how well I think I know spread() and gather() and how well I actually know spread() and gather()— Jesse Mostipak (@kierisi) October 28, 2018Why do you need to know gather and spread?</description>
+    </item>
     
     <item>
       <title>Clean It Up 1: Cleaning Up Columns</title>
@@ -49,7 +59,7 @@ In this lesson, we will continue to explore the sydneybeaches data, learning how
       <guid>/post/2018/11/19/clean-it-up/</guid>
       <description>RYouWithMe Unit 2 - Clean It UpWelcome to the second unit of RYouWithMe! In Unit 2, we’re moving on to data cleaning! Trust us, it’s more fun than housecleaning!
 Unit 2 has four lessons:
-Cleaning Up ColumnsExploring the RowsMaking New VariablesWide to Long to Wide to… [forthcoming]via GIPHY</description>
+Cleaning Up ColumnsExploring the RowsMaking New VariablesWide to Long to Wide to…via GIPHY</description>
     </item>
     
     <item>
