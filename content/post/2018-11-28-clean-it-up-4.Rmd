@@ -193,5 +193,4 @@ Is your data in wide format? No problem. Sort out answers to the following quest
 2. What are the "values"?
 3. Which columns do you want to gather? 
 
-Post a screenshot of your success (or frustration) in the Clean it Up Slack channel.  
-
+**Sydney-based R-Ladies** - share your successes and any challenges you've faced in the #ryouwithme_2_cleaning Slack channel! 
