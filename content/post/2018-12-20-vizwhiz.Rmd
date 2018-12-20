@@ -17,7 +17,7 @@ Welcome to the third unit of [RYouWithMe](/ryouwithme)! In Unit 3, we’re tackl
 Unit 3 has five lessons:  
 
 1. [Plotting Raw Data](/post/2018/12/20/vizwhiz-1/)
-2. Boxes, Violins, and Histograms
+2. [Boxes, Violins, and Histograms](/post/2018/12/20/vizwhiz-2/)
 3. Bars, Columns, and Scatterplots
 4. Customising Plots
 5. GIFS! A VizW(h)iz Bonus Lesson

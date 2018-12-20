@@ -165,7 +165,7 @@ Steps to plotting your own raw data:
 4. Try out `geom_point`, `geom_jitter`, or `geom_quasirandom` and see which one makes the most sense for your data
 5. Export using `ggsave` 
 
-On to Lesson 2 [Coming soon!]
+On to [Lesson 2](/post/2018/12/20/vizwhiz-2/)
 
 If you are one of our Sydney-based RLadies, share your success (and /or your frustration!) in our Slack channel #ryouwithme_3_vizwhiz!
 
