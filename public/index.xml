@@ -6,10 +6,34 @@
     <description>Recent content in Home on R-Ladies Sydney</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VizW(h)iz 1: Plotting Raw Data</title>
+      <link>/post/2018/12/20/vizwhiz-1/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/12/20/vizwhiz-1/</guid>
+      <description>Before we begin, a preamble…
+Why plot raw data?Until I1 started learning R about a year ago, I had only ever plotted averaged data. My plots looked like this…
+Or this….
+In 2016, I remember seeing #barbarplots t-shirts and tote bags at a conference, but back then I didn’t know that the figures were made in R.
+Check out this video for more info about the #barbarplots kickstarter campaign.</description>
+    </item>
+    
+    <item>
+      <title>VizW(h)iz Overview</title>
+      <link>/post/2018/12/20/vizwhiz/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/12/20/vizwhiz/</guid>
+      <description>RYouWithMe Unit 3 - VizW(h)izWelcome to the third unit of RYouWithMe! In Unit 3, we’re tackling data visualisation!
+Unit 3 has five lessons:
+Plotting Raw DataBoxes, Violins, and HistogramsBars, Columns, and ScatterplotsCustomising PlotsGIFS! A VizW(h)iz Bonus LessonWhy “VizW(h)iz”?R-Ladies Sydney co-founders Lisa Williams and Jen Richmond, who conjured up the name of this unit, had different things in mind! Lisa had in mind “VizWiz” - as in Visualisation Wizardry!</description>
+    </item>
     
     <item>
       <title>Clean It Up 4: Wide to Long to Wide to...</title>
