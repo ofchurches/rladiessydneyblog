@@ -36,6 +36,37 @@ Lesson OutcomesBy the end of the lesson, you should:
     </item>
     
     <item>
+      <title>VizW(h)iz 3: Bars, Columns, and Scatterplots</title>
+      <link>/post/2018/12/20/vizwhiz-3/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/12/20/vizwhiz-3/</guid>
+      <description>The ggplot fanciness we covered in Lesson 1 and Lesson 2 is great, but sometimes your boss/grant agency/publication outlet insists on a bar or column graph. Or perhaps you simply need to visualise two continuous variables. In this lesson, we will show you how to plot bar and column graphs with error bars and how to plot a scatter plot.
+Lesson OutcomesBy the end of the lesson, you should:</description>
+    </item>
+    
+    <item>
+      <title>VizW(h)iz 4: Customising Plots</title>
+      <link>/post/2018/12/20/vizwhiz-4/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/12/20/vizwhiz-4/</guid>
+      <description>I google for #rstats code all the time! https://t.co/XDzuvqkJCK— Hadley Wickham (@hadleywickham) July 26, 2016Everyone (even Hadley Wickham!) googles how to make their ggplot look like how they want, every…. single…. time. In this lesson, we are going to show you how to use themes, colours, and labels to get most of the way there.
+Lesson OutcomesBy the end of the lesson, you should:</description>
+    </item>
+    
+    <item>
+      <title>VizW(h)iz 5: GIFS! A VizW(h)iz Bonus Lesson</title>
+      <link>/post/2018/12/20/vizwhiz-5/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/12/20/vizwhiz-5/</guid>
+      <description>This bonus VizW(h)iz lesson is a shout-out to R-Ladies Sydney cofounder Lisa Williams. Back in May, she tweeted:
+I vote for this as a tutorial at an upcoming @RLadiesSydney meetup! @djnavarro @JenRichmondPhD @StephdeSilva! https://t.co/bBQ4HmbCYW— Dr Lisa A. Williams (@williamslisaphd) May 16, 2018Your wish is our command, Lisa! [pun intended!]
+I could not possibly love this more! pic.twitter.com/lQyQlRNVZl— Dr Lisa A. Williams (@williamslisaphd) December 18, 2018--We are quite certain that you’d appreciate knowing how to perform this whizzy wizardry, so here you are: a step-by-step guide to adding a gif to a ggplot!</description>
+    </item>
+    
+    <item>
       <title>VizW(h)iz Overview</title>
       <link>/post/2018/12/20/vizwhiz/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
